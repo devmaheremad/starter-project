@@ -4,11 +4,6 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Home page</title>
-        <meta name="description" content="Home page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Box
         px={{ xs: 1, sm: 2, md: 3, lg: 4, xl: 5 }}
         maxWidth={"1300px"}
