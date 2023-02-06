@@ -22,6 +22,7 @@ export default function MyApp(props: MyAppProps) {
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta name="description" content="Starter Template" />
+        <link rel="shortcut icon" href="/public/favicon.ico" />
         <title>Starter Template</title>
       </Head>
       <ThemeProvider theme={theme}>
